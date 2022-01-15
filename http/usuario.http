@@ -10,12 +10,12 @@ Content-Type: application/json
 ### Efetuando logout
 DELETE  http://localhost:3400/logout
 Content-Type: application/json
-Authorization:  8846b88fa80d2e6f03637d20c01fc33a 
+Authorization:  8f8c5397ab71941d3c657247f3ea684f
 
 ### Obter usuarios por id
 GET  http://localhost:3400/usuarios/1
 Content-Type: application/json
-Authorization:  8846b88fa80d2e6f03637d20c01fc33a 
+Authorization: 29e0e91d897e358054d44872170a8699 
 
 ### Obter todos os usuários
 GET  http://localhost:3400/usuarios

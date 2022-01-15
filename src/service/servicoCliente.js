@@ -53,7 +53,7 @@ function atualizar(cliente){
 function deletar(id){
     var indice = listaDeClientes.findIndex(p => p.id == id);
     if(indice < 0){
-        return;
+        throw Error(`Não foi possível localizar o cliente com id ${id} para ser excluido.`);
     }
 
     // Deleta de dentro do array a posicição especifica

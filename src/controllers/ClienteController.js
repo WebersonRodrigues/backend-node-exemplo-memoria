@@ -57,7 +57,7 @@ module.exports = class ClienteController {
         try {
             var id = req.params.id;
             serviceCliente.deletar(id);
-            return res.json({mensagem: `Cliente con id ${id} foi deletado com sucesso`});
+            return res.json({mensagem: `Cliente com id ${id} foi deletado com sucesso`});
 
         } catch (error) {
             console.log(error);

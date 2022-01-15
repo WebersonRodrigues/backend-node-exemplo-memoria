@@ -45,6 +45,7 @@ function atualizar(produto){
     }
 
     listaDeProdutos.splice(indice, 1, produto);
+    return produto;
 }
 
 function deletar(id){

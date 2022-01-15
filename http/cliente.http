@@ -1,19 +1,19 @@
 ### Obter todos os clientes
 GET  http://localhost:3400/clientes
 Content-Type: application/json
-Authorization: 8846b88fa80d2e6f03637d20c01fc33a 
+Authorization: 29e0e91d897e358054d44872170a8699 
 
 
 ### Obter o cliente por id
 GET  http://localhost:3400/clientes/1
 Content-Type: application/json
-Authorization: 8846b88fa80d2e6f03637d20c01fc33a 
+Authorization: 29e0e91d897e358054d44872170a8699 
 
 
 ### Cadastrar cliente
 POST http://localhost:3400/clientes
 Content-Type: application/json
-Authorization: 8846b88fa80d2e6f03637d20c01fc33a 
+Authorization: 29e0e91d897e358054d44872170a8699
 
 {
     "nome": "Severino",
@@ -27,7 +27,7 @@ Authorization: 8846b88fa80d2e6f03637d20c01fc33a
 ### Atualizar clientes
 PUT http://localhost:3400/clientes/1
 Content-Type: application/json
-Authorization: 8846b88fa80d2e6f03637d20c01fc33a 
+Authorization: 29e0e91d897e358054d44872170a8699
 
 {
     "nome": "Jose Pereira Lima",
@@ -40,6 +40,6 @@ Authorization: 8846b88fa80d2e6f03637d20c01fc33a
 
 
 ### Deletar produto por id
-DELETE http://localhost:3400/clientes/1
+DELETE http://localhost:3400/clientes/3
 Content-Type: application/json
-Authorization: 8846b88fa80d2e6f03637d20c01fc33a 
+Authorization: 29e0e91d897e358054d44872170a8699
