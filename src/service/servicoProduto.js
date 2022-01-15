@@ -7,14 +7,16 @@ var listaDeProdutos = [
         nome:"Sapato",
         quantidadeEstoque: 10,
         valor: 200.0,
-        dataCadastro: new Date().toISOString()
+        dataCadastro: new Date().toISOString(),
+        observacao: "Produto original"
     }),
     new Produto({
         id:2,
         nome:"Camisa do Barcelona",
         quantidadeEstoque: 50,
         valor: 280.0,
-        dataCadastro: new Date().toISOString()
+        dataCadastro: new Date().toISOString(),
+        observacao: "Produto original"
     })
 ];
 

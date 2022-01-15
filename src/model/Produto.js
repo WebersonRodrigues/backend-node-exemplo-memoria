@@ -5,6 +5,8 @@ module.exports = class Produto {
         this.nome = obj.nome;
         this.valor = obj.valor;
         this.quantidadeEstoque = obj.quantidadeEstoque;
+        this.observacao = obj.observacao;
+        this.foto = obj.foto;
         this.dataCadastro = obj.dataCadastro;
     }
 }
